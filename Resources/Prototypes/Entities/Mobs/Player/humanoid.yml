@@ -897,20 +897,6 @@
 # Syndicate Lost Nukie
 
 - type: entity
-  name: lost nukie spawner
-  id: LostNukieSpawner
-  parent: MarkerBase
-  components:
-  - type: Sprite
-    layers:
-      - state: red
-      - sprite: Structures/Decoration/banner.rsi
-        state: banner_syndicate
-  - type: RandomSpawner
-    prototypes:
-    - RandomHumanoidSyndicateLostNukie
-
-- type: entity
   id: RandomHumanoidSyndicadeLostNukie
   name: lost nukie ghost role
   components:
