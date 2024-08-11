@@ -244,6 +244,10 @@ ghost-role-information-syndie-disaster-victim-name = Syndie Disaster Victim
 ghost-role-information-syndie-disaster-victim-description = You're a regular passenger from a syndicate station. Unfortunately, an evacuation pod has thrown you into an enemy sector.....
 ghost-role-information-syndie-disaster-victim-rules = Normal station crew rules apply. You are NOT an antagonist!
 
+ghost-role-information-syndie-lost-nukie-name = Syndicate Lost Nukie
+ghost-role-information-syndie-lost-nukie-description = You are a nuclear operative surviving a successful mission, what remains of your ship has been thrown to another enemy sector....
+ghost-role-information-syndie-lost-nukie-rules = Normal crew rules do not apply to you, you are an ANTAGONIST and follow the normal antagonist rules
+
 ghost-role-information-syndicate-kobold-reinforcement-name = Syndicate Kobold Agent
 ghost-role-information-syndicate-kobold-reinforcement-description = Someone needs reinforcements. You, a trained kobold, will help them.
 ghost-role-information-syndicate-kobold-reinforcement-rules = Normal syndicate antagonist rules apply. Work with whoever called you in, and don't harm them.

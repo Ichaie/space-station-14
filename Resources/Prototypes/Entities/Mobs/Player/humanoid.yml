@@ -893,3 +893,50 @@
       nameSegments:
       - names_first
       - names_last
+
+# Syndicate Lost Nukie
+
+- type: entity
+  name: lost nukie spawner
+  id: LostNukieSpawner
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: red
+      - sprite: Structures/Decoration/banner.rsi
+        state: banner_syndicate
+  - type: RandomSpawner
+    prototypes:
+    - RandomHumanoidSyndicateLostNukie
+
+- type: entity
+  id: RandomHumanoidSyndicadeLostNukie
+  name: lost nukie ghost role
+  components:
+    - type: Sprite
+      sprite: Structures/Decoration/banner.rsi
+      state: banner_syndicate
+    - type: RandomHumanoidSpawner
+      settings: SyndieLostNukie
+
+- type: randomHumanoidSettings
+  id: SyndieLostNukie
+  randomizeName: false
+  components:
+    - type: NpcFactionMember
+      factions:
+      - Syndicate
+    - type: GhostRole
+      name: ghost-role-information-syndie-lost-nukie-name
+      description: ghost-role-information-syndie-lost-nukie-description
+      rules: ghost-role-information-syndie-lost-nukie-rules
+      raffle:
+        settings: short
+    - type: GhostTakeoverAvailable
+    - type: Loadout
+      prototypes: [ SyndicateLostOperativeGearBasic ]
+    - type: RandomMetadata
+      nameSegments:
+      - names_first
+      - names_last

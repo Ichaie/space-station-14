@@ -104,6 +104,17 @@
     pocket1: BaseUplinkRadio40TC
     id: SyndiPDA
 
+#Syndicate Operative Outfit - Lost Nukie
+- type: startingGear
+  id: SyndicateLostOperativeGearBasic
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitOperative
+    back: ClothingBackpackDuffelSyndicateOperative
+    ears: ClothingHeadsetAltSyndicate
+    gloves: ClothingHandsGlovesCombat
+    shoes: ClothingShoesBootsCombatFilled
+    id: SyndiPDA
+
 #Syndicate Operative Outfit - Full Kit
 - type: startingGear
   id: SyndicateOperativeGearFull
