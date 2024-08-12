@@ -910,6 +910,7 @@
   id: SyndieLostNukie
   randomizeName: false
   components:
+    - type: NukeOperative
     - type: NpcFactionMember
       factions:
       - Syndicate
