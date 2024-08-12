@@ -924,5 +924,8 @@
       prototypes: [ SyndicateLostOperativeGearBasic ]
     - type: RandomMetadata
       nameSegments:
-      - names_first
-      - names_last
+      - nukeops-role-operator
+      - SyndicateNamesNormal
+      mindComponents:
+      - type: NukeopsRole
+        prototype: Nukeops
