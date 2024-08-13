@@ -52,5 +52,8 @@
 - files: ["oasis.yml"]
   authors: CptJeanLuc
 
+- files: ["cog.yml"]
+  authors: Spacemann
+
 - files: ["Gaxstation.yml"]
   authors: Ichai, dasprino007, SidGus
