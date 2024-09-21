@@ -47,6 +47,26 @@
     noAirWhenFullyAirBlocked: false
 
 - type: entity
+  id: HoloFanInfinity
+  parent: HolosignWetFloor
+  name: holofaninfinity
+  description: A barrier of hard light that blocks air, but nothing else.
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Structures/Holo/Holofaninfinity.rsi
+    state: infinity
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+            bounds: "-0.5,-0.5,0.5,0.5"
+  - type: TimedDespawn
+    lifetime: 9999999999
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+
+- type: entity
   id: HolosignSecurity
   parent: HolosignWetFloor
   name: holographic barrier
